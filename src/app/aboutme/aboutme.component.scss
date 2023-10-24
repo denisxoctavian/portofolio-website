@@ -20,12 +20,13 @@
     font-size: 15px;
     font-weight: 600;
     color: #6919ff;
-    text-shadow: 0 0 10px #6919ff;
-    border: 2px solid #6919ff;
+    border: 1px solid #6919ff;
     border-radius: 20px;
     background: rgba(238, 130, 238, 0.12);
     margin-bottom: 15px;
     display: inline-block;
     padding: 5px;
-
+    position: relative;
+    overflow: hidden;
+    cursor: cell
 }

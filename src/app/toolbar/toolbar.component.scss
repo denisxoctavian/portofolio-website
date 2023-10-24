@@ -21,6 +21,7 @@ button {
     background: none;
     color: #fff;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .btn::before,
@@ -67,7 +68,7 @@ button {
     background: transparent;
     border: none;
     overflow: hidden;
-    colore: white;
+    color: white;
 }
 
 .mat-button::before {

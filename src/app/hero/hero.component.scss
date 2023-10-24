@@ -9,6 +9,9 @@
     background: none;
     color: #fff !important;
     overflow: hidden;
+    width: 21vh;
+    height: 6vh;
+    font-size: 14px;
 }
 
 .btn::before,
@@ -50,6 +53,7 @@
     color: rgb(0, 0, 0);
 }
 
+
 .hero-heading {
     font-size: 100px;
     color: white;
@@ -68,6 +72,9 @@
     background: #ffffff;
     color: black !important;
     overflow: hidden;
+    width: 21vh;
+    height: 6vh;
+    font-size: 14px;
 }
 
 .btn-reverse::before,
