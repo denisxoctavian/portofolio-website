@@ -2,12 +2,14 @@ mat-toolbar {
     background-color: transparent;
     color: white;
     font-size: 15px;
+
 }
 
 button {
     font-size: 15px;
     margin: 3px;
     color: white;
+
 }
 
 .btn {
@@ -32,7 +34,7 @@ button {
     height: 100%;
     display: block;
     background: #ffffff;
-    color: rgb(0, 0, 0);
+    color: #240166;
     top: 0;
     left: 0;
     z-index: -1;
@@ -42,12 +44,12 @@ button {
 
 .btn::before {
     left: -30%;
-    color: rgb(0, 0, 0);
+    color: #240166;
 }
 
 .btn::after {
     right: -30%;
-    color: rgb(0, 0, 0);
+    color: #240166;
 }
 
 .btn:hover::after {
@@ -55,12 +57,12 @@ button {
 }
 
 .btn:hover {
-    color: rgb(0, 0, 0);
+    color: #240166;
 }
 
 .btn:active {
     transform: translateY(2px);
-    color: rgb(0, 0, 0);
+    color: #240166;
 }
 
 .mat-button {
