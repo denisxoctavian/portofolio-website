@@ -1,16 +1,20 @@
-<div class="about" style="border-bottom: 2px solid rgba(100, 108, 133, 0.5);">
+<div class="about" style="border-bottom: 1px solid rgba(100, 108, 133, 0.5);">
     <div class="row">
-        <div class="col">
+        <div class="col-md-6">
             <div>
-                <img src="../../assets/imgs/aboutmephoto.jpg">
+                <img src="../../assets/imgs/aboutmephoto.jpg" style="max-width: 100%;">
             </div>
         </div>
-        <div class="col">
+        <div class="col-md-6">
             <div class="d-flex align-items-center" style="height: 100vh;">
                 <div>
                     <span class="pill-about">ABOUT</span>
-                    <h1 class="header-about">Software Developer</h1>
-                    <span class="description">Hello, I'm Denis, a developer based in Pitesti, Romania. I'm here to offer
+                    <ngx-typed-js [loop]=true [showCursor]="false" [typeSpeed]="100"
+                        [strings]="['Software Developer', 'Travel enthusiast']">
+                        <h1 class="header-about typing"></h1>
+                    </ngx-typed-js>
+                    <span class="description">I am <span style="color: white;">Denis</span>, a developer based in
+                        Pitesti, Romania. I am here to offer
                         you web development
                         services with attention and care. In addition to my passion for programming and creating web
                         solutions, I also have a deep love for hiking. Exploring the great outdoors is another way I
@@ -19,4 +23,5 @@
             </div>
         </div>
     </div>
+
 </div>

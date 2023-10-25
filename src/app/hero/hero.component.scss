@@ -9,8 +9,8 @@
     background: none;
     color: #fff !important;
     overflow: hidden;
-    width: 21vh;
-    height: 6vh;
+    width: 25vh;
+    height: 8vh;
     font-size: 14px;
 }
 
@@ -22,7 +22,7 @@
     height: 100%;
     display: block;
     background: #ffffff;
-    color: rgb(0, 0, 0) !important;
+    color: #240166 !important;
     top: 0;
     left: 0;
     z-index: -1;
@@ -32,12 +32,14 @@
 
 .btn::before {
     left: -30%;
-    color: rgb(0, 0, 0);
+    color: #240166;
+    ;
 }
 
 .btn::after {
     right: -30%;
-    color: rgb(0, 0, 0);
+    color: #240166;
+    ;
 }
 
 .btn:hover::after {
@@ -45,12 +47,12 @@
 }
 
 .btn:hover {
-    color: rgb(0, 0, 0) !important;
+    color: #240166 !important;
 }
 
 .btn:active {
     transform: translateY(2px);
-    color: rgb(0, 0, 0);
+    color: #240166;
 }
 
 
@@ -70,11 +72,11 @@
     cursor: pointer;
     position: relative;
     background: #ffffff;
-    color: black !important;
+    color: #240166 !important;
     overflow: hidden;
-    width: 21vh;
-    height: 6vh;
-    font-size: 14px;
+    width: 32vh;
+    height: 8vh;
+    font-size: 17px;
 }
 
 .btn-reverse::before,

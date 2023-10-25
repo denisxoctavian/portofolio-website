@@ -11,6 +11,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { HeroComponent } from './hero/hero.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { WorkComponent } from './work/work.component';
+import { NgxTypedJsModule } from 'ngx-typed-js';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { WorkComponent } from './work/work.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    NgxTypedJsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

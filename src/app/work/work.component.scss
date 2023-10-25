@@ -9,3 +9,20 @@
     text-align: center;
     font-weight: bold;
 }
+
+.pill-work {
+    width: 80px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #6919ff;
+    border: 1px solid #6919ff;
+    border-radius: 20px;
+    background: rgba(186, 130, 238, 0.12);
+    margin-bottom: 15px;
+    margin-top: 25px;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+}
